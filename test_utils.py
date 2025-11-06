@@ -1,0 +1,1 @@
+import unittest\nfrom utils import formata_texto\n\nclass TestUtils(unittest.TestCase):\n    def test_formata_texto(self):\n        self.assertEqual(formata_texto(' dash '), 'Dash')\n\nif __name__ == '__main__':\n    unittest.main()
